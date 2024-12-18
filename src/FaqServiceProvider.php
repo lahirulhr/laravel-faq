@@ -3,16 +3,13 @@
 namespace Visanduma\LaravelFaq;
 
 use Illuminate\Support\ServiceProvider;
-use Visanduma\LaravelFaq\Commands\CopyNovaResourceCommand;
+
 
 class FaqServiceProvider extends ServiceProvider
 {
     public function boot()
     {
         $this->registerPublishAbles();
-        $this->commands([
-            CopyNovaResourceCommand::class
-        ]);
     }
 
     protected function registerPublishAbles(): void
