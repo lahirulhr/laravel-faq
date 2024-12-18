@@ -1,6 +1,6 @@
 <?php
 
-namespace Visanduma\LaravelFaq\Models;
+namespace Hiru\LaravelFaq\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\EloquentSortable\Sortable;

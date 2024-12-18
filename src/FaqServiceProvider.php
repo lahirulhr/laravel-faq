@@ -1,6 +1,6 @@
 <?php
 
-namespace Visanduma\LaravelFaq;
+namespace Hiru\LaravelFaq;
 
 use Illuminate\Support\ServiceProvider;
 

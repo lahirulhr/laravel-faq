@@ -6,8 +6,8 @@ use Faker\Factory;
 use Faker\Provider\File;
 use Illuminate\Database\Seeder;
 use Illuminate\Foundation\Testing\WithFaker;
-use Visanduma\LaravelFaq\Models\Faq;
-use Visanduma\LaravelFaq\Models\FaqCategory;
+use Hiru\LaravelFaq\Models\Faq;
+use Hiru\LaravelFaq\Models\FaqCategory;
 
 class FaqSeeder extends Seeder
 {
